@@ -3,7 +3,7 @@ name: Dataset Validation
 on:
   pull_request:
     branches:
-      - master
+      - next
     paths:
       - 'submissions/**/dataset*.json*'
       - 'submissions/**/compute*.json*'
