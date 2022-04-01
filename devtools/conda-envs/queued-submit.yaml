@@ -7,9 +7,12 @@ channels:
 dependencies:
   - python =3.8
   - pip
-  - qcportal >=0.15.8
-  - openff-qcsubmit =0.3.1
+#  - qcportal >=0.15.8
+#  - openff-qcsubmit =0.3.1
   - openff-forcefields >=2.0.0
   - PyGithub
   - pandas
   - tabulate
+  - pip:
+      - git+https://github.com/MolSSI/QCPortal.git@next
+      - git+https://github.com/openforcefield/openff-qcsubmit.git@next
