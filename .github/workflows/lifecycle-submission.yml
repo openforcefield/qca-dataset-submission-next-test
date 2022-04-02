@@ -23,7 +23,7 @@ jobs:
       OE_LICENSE: ${{ github.workspace }}/oe_license.txt
     steps:
       - name: Checkout code
-        uses: nschloe/action-cached-lfs-checkout@v1
+      - uses: actions/checkout@v3
 
       - name: ensure we only have one instance running
         uses: softprops/turnstyle@v1
